@@ -7,5 +7,6 @@
 #define SYSTEM_EXPERIENCE_EXPERIENCE_H
 
 int exp_task1();
+int exp_task2();
 
 #endif //SYSTEM_EXPERIENCE_EXPERIENCE_H
