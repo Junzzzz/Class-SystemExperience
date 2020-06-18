@@ -6,3 +6,7 @@ set(CMAKE_C_STANDARD 99)
 add_executable(system_experience main.c experience.h chapter1/task1.c chapter1/task2.c)
 add_executable(test test.c)
 add_executable(exp1_2 chapter1/exp1_2.c)
+
+find_package(Threads REQUIRED)
+add_executable(exp2 chapter2/exp2.c)
+target_link_libraries(exp2 Threads::Threads)
