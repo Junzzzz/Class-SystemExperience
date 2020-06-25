@@ -1,7 +1,7 @@
 //
 // Created by Jun on 5/31/20.
 //
-#include "../experience.h"
+#include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
 #include <wait.h>
