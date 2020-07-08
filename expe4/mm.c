@@ -62,11 +62,11 @@ int main() {
 
     for (i = 4; i <= 32; i++) {
         printf("%2d page frames", i);
-        fifo(i);               /* FIFO�㷨 */
-        lru(i);                /* LRU�㷨  */
-        opt(i);                /* OPT�㷨  */
-        lfu(i);                /* LFU�㷨  */
-        nur(i);                /* NUR�㷨  */
+        fifo(i);               /* FIFO算法 */
+        lru(i);                /* LRU算法  */
+        opt(i);                /* OPT算法  */
+        lfu(i);                /* LFU算法  */
+        nur(i);                /* NUR算法  */
         printf("\n");
     }
 }
