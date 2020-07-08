@@ -55,6 +55,8 @@ void *producer(void *p) {
     }
 }
 
+
+// 消费者函数
 void *consumer(void *p) {
     int i;
     long thd_con_id = (long) pthread_self();
